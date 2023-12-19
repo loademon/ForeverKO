@@ -10,7 +10,7 @@ from loademon.dataclass import (
 )
 
 CONFIG = MainConfig(
-    api_key="MTE4NTg5ODU5NDcwNDgzNDU4MA.GzZG0C.N9tl3hNA-6a5oLr9jL26_j5jJD8NFhhfwxWFrc",
+    api_key="",
     command_prefix="!",
     activity=ActivityConfig(type=ActivityType.playing, message="ForeverKO"),
     ready=ReadyConfig(message="ForeverKO bot hazır!"),
