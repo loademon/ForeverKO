@@ -33,12 +33,14 @@ class Announcment(commands.Cog):
             description=duyuru_metni,
         )
         if duyuru_görseli:
-            # embed.set_thumbnail(url=duyuru_görseli)
             embed.set_image(url=duyuru_görseli)
 
-        await channel.send(
-            embed=embed,
-        )
+        if everyone:
+            await channel.send(content="@everyone", embed=embed)
+
+        else:
+            await channel.send(embed=embed)
+
         return await ctx.send(f"Duyuru başarıyla gönderildi. {channel.mention}")
 
 

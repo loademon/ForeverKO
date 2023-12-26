@@ -37,7 +37,7 @@ class Streamer(commands.Cog):
             inline=True, name="Ödüller", value="- Sponsor Paket\n- Haftalık Bakiye"
         )
         embed.set_thumbnail(
-            url="https://raw.githubusercontent.com/loademon/ForeverKO-utils/main/Error_poop.png"
+            url="https://cdn.discordapp.com/attachments/1185610497907773440/1189294949754216531/LOGO-1.png?ex=659da43c&is=658b2f3c&hm=172a920697c7032575cd60ba7ff3ab45cb32e0b5fcef2884c49335c15a1eb5a1&"
         )
 
         await ctx.channel.send(
